@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/src/imagens/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: "Marcellus", serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.text{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 400px;
+    margin-top: 14rem;
+    margin-left: 8rem;
+    color: white;
+}
+h3{
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: rgb(136, 134, 134);
+    
+}
+h1{
+    font-size: 110px;
+    letter-spacing: 7px;
+    margin-top: 1rem;
+    width: 350px;
+    font-weight: 400;
+}
+p{
+    text-align: justify;
+    font-size: 15px;
+    width: 350px; 
+    color: rgb(136, 134, 134);
+    font-weight: lighter;
+}
+
+.explore{
+    margin-top: 18rem;
+    margin-right: 7rem;
+}
+button{
+    width: 200px;          
+    height: 200px;         
+    border-radius: 50%;   
+    border: none;       
+    background-color: white; 
+    color: black;         
+    font-size: 24px;    
+    cursor: pointer;     
+    font-weight: lighter;
+   
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/src/imagens/background-destination-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: "Marcellus", serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+.image h3{
+    margin-left: 2rem;
+    font-size: 20px;
+    color: rgb(234, 227, 227);
+    font-weight: lighter;
+}
+h3 span{
+    color: rgb(136, 134, 134);
+    margin-right: 10px;
+}
+.image img{
+    margin-top: 5rem;
+    width: 350px;
+    height: 350px;
+    margin-left: 4rem;
+}
+.informations{
+    margin-top: 8rem;
+    margin-left: 8rem;
+}
+.informations h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 200;
+    margin-top: 2rem;
+    letter-spacing: 7px;
+}
+nav a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: rgb(188, 185, 185);
+    border:none;
+    padding-bottom: 25px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+p{
+    color: rgb(188, 185, 185);
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 16px;
+    width: 400px;
+}
+.informations hr {
+    width: 400px;               
+    margin-top: 3rem;
+    border: none;                
+    height: 1px;                
+    background-color: rgba(86, 86, 86, 0.85); 
+  }
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+   
+  }
+.footer h4{
+    font-size: 12px;
+    color: rgb(188, 185, 185);
+    margin-top: 1.5rem;
+}
+.footer p{
+    font-size: 25px;
+    color: white;
+    margin-top: 4px;
+}
+.time{
+    margin-left: -12rem;
+}
+
