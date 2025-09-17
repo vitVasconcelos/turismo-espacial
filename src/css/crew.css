@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/src/imagens/background-crew-desktop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Marcellus", serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.informations{
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+.informations h3{
+    color: rgb(196, 196, 196);
+    font-weight: lighter;
+}
+h3 span{
+    color: gray;
+    margin-right: 6px;
+}
+h2{
+    margin-top: 6rem;
+    color: gray;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+h1{
+    color: rgb(232, 226, 226);
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+p{
+    width: 280px;
+    text-align: left;
+    color: rgb(196, 196, 196);
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.bolinhas {
+    display: flex;
+    gap: 10px;
+    margin-top: 5rem;
+  }
+
+.bolinha {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: gray;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.bolinha.ativa {
+    background: white;
+}
+.image img{
+    width: 500px;
+    max-height: 500px;
+    position: fixed;
+    bottom: 0;
+}
