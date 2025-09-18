@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/all.css">
+    <link rel="stylesheet" href="/src/css/technology.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="/src/imagens/logo.svg" alt="destination">
+        </div>
+        <div class="nav">
+            <nav>
+                <a href="/index.html"><b>00</b> HOME</a>
+                <a href="/destination.html"><b>01</b> DESTINATION</a>
+                <a href="/crew.html"><b>02</b> CREW</a>
+                <a href="/technology.html" class="active"><b>03</b> TECHNOLOGY</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h3><span>03</span>SPACE LAUNCH 101</h3>
+        <div class="content">
+            <div class="buttons">
+                <button class="button active" data-target="1">1</button>
+                <button class="button" data-target="2">2</button>
+                <button class="button" data-target="3">3</button>
+            </div>
+            <div class="informations">
+                <h4>THE TERMINOLOGY...</h4>
+                <h1 id="name">LAUNCH VEHICLE</h1>
+                <p id="text">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
+                    payload from Earth's surface to space, usually to Earth orbit or beyond. Our
+                    WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,
+                    it's quite an awe-inspiring sight on the launch pad!</p>
+            </div>
+            <div class="image">
+                <img id="photo" src="/src/imagens/image-launch-vehicle-portrait.jpg" alt="">
+            </div>
+        </div>
         
+       
+    </main>
+
     <script src="/src/javascript/scripts.js"></script>
+    <script src="/src/javascript/technology.js"></script>
 </body>
+
 </html>
