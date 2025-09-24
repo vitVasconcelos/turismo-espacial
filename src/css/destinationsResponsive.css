@@ -1,0 +1,158 @@
+/* Responsividade para Tablet */
+@media (max-width: 1024px) and (min-width: 768px) {
+    body {
+      background-image: url(/src/imagens/background-destination-tablet.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  
+    main {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .image {
+      margin: 2rem 0;
+    }
+  
+    .image h3 {
+      margin-left: 0;
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .image img {
+      margin: 2rem auto 0 auto;
+      width: 280px;
+      height: 280px;
+    }
+  
+    .informations {
+      margin: 2rem 0;
+    }
+    .informations a{
+        font-size: 16px;
+    }
+    .informations h1 {
+      font-size: 50px;
+      letter-spacing: 5px;
+    }
+  
+    .informations p {
+      width: 100%;
+      max-width: 500px;
+      margin: 1.5rem auto;
+      font-size: 15px;
+      text-align: center;
+    }
+  
+    .informations hr {
+      width: 100%;
+      max-width: 500px;
+      margin: 2rem auto;
+    }
+  
+    .footer {
+      justify-content: space-around;
+      margin-top: 2rem;
+      width: 100%;
+    }
+  L
+    .footer h4 {
+      font-size: 12px;
+    }
+  
+    .footer p {
+      font-size: 20px;
+      
+    }
+  
+    .time {
+      margin-left: 0;
+    }
+  }
+  
+ /* Responsividade para smartphones */
+@media (max-width: 768px) {
+
+  body {
+    background-image: url(/src/imagens/background-destination-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  main {
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;       
+    padding: 1rem;
+  }
+
+  .image {
+    margin: 2rem 0;          
+  }
+
+  .image img {
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto;
+  }
+
+  .image h3 {
+    font-size: 16px;
+    margin-left: 0;          
+  }
+
+  .informations {
+    margin: 2rem 0;
+  }
+
+  .informations h1 {
+    font-size: 45px;         
+    letter-spacing: 3px;
+  }
+
+  .informations p {
+    font-size: 16px;
+    width: 100%;             
+    text-align: center;      
+    margin: 1rem auto;
+  }
+
+  .informations hr {
+    width: 80%;             
+    margin: 2rem auto;
+  }
+
+  nav a {
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0 0.5rem;
+  }
+
+  .footer {
+    flex-direction: row;  
+    justify-content: center;
+    margin-top: 2rem;
+    margin: auto;
+   
+   
+  }
+
+  .footer h4 {
+    font-size: 10px;
+    margin-top: 0.5rem;
+  }
+
+  .footer p {
+    font-size: 18px;
+    margin-top: 0.2rem;
+  }
+
+  .time {
+    margin-left: 0;         
+    margin-left: 3rem;
+  }
+}

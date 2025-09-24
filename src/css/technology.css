@@ -5,7 +5,7 @@
 }
 body{
     background-image: url(/src/imagens/background-technology-desktop.jpg);
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

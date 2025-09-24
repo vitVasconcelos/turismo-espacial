@@ -1,0 +1,134 @@
+/* Responsividade para Tablet */
+@media (max-width: 1024px) and (min-width: 768px) {
+    body {
+      background-image: url(/src/imagens/background-technology-tablet.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  
+    h3 {
+      margin: 4rem auto;
+      text-align: center;
+      font-size: 22px;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 2rem;
+    }
+  
+    .buttons {
+      flex-direction: row; 
+      justify-content: center;
+      margin: 2rem 0;
+      gap: 15px;
+    }
+  
+    button {
+      width: 60px;
+      height: 60px;
+      font-size: 20px;
+    }
+  
+    .informations {
+      margin: 1rem 0;
+    }
+  
+    .informations h4 {
+      font-size: 18px;
+    }
+  
+    .informations h1 {
+      font-size: 32px;
+      margin: 10px 0;
+    }
+  
+    .informations p {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      font-size: 15px;
+      line-height: 22px;
+      text-align: center;
+    }
+  
+    .image {
+      position: static;
+      margin: 2rem auto 0 auto;
+      text-align: center;
+    }
+  
+    .image img {
+      width: 350px;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsividade para telas até 768px */
+@media (max-width: 768px) {
+
+  body {
+    background-image: url(/src/imagens/background-technology-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  h3 {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .content {
+    flex-direction: column;   
+    align-items: center;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: row;      
+    justify-content: center;
+    margin: 1.5rem 0;
+    gap: 15px;
+  }
+
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .informations {
+    margin: 2rem 0;
+  }
+
+  .informations h4 {
+    font-size: 16px;
+  }
+
+  .informations h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+
+  .informations p {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .image {
+    position: static;     
+    margin: 2rem auto;
+  }
+
+  .image img {
+    width: 280px;
+    height: auto;
+  }
+}

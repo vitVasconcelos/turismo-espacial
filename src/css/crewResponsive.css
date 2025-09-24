@@ -1,0 +1,119 @@
+/* Responsividade para Tablet */
+@media (max-width: 1024px) and (min-width: 768px) {
+    body {
+      background-image: url(/src/imagens/background-crew-tablet.jpg);
+      background-size: cover;
+      background-position: top center;
+    }
+  
+    main {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .informations {
+      margin: 2rem 0;
+    }
+  
+    .informations h3 {
+      font-size: 22px;
+      margin-bottom: 1rem;
+    }
+  
+    h2 {
+      margin-top: 2rem;
+      font-size: 22px;
+    }
+  
+    h1 {
+      font-size: 30px;
+      margin-top: 0.5rem;
+    }
+  
+    p {
+      width: 100%;
+      max-width: 450px;
+      margin: 1rem auto;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+    }
+  
+    .bolinhas {
+      justify-content: center;
+      margin: 2rem auto;
+    }
+  
+    .image img {
+      width: 400px;
+      max-height: 400px;
+      position: static; 
+     
+    }
+  }
+  
+
+@media (max-width: 768px) {
+
+  body {
+    background-image: url(/src/imagens/background-crew-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  main {
+    flex-direction: column;  
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;     
+    padding: 1rem;
+  }
+
+  .informations {
+    margin: 2rem 0;         
+  }
+
+  .informations h3 {
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+  }
+
+  p {
+    width: 100%;              
+    max-width: 320px;       
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 1rem auto;
+  }
+
+  .bolinhas {
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .bolinha {
+    width: 12px;
+    height: 12px;
+  }
+
+  .image img {
+    width: 250px;
+    height: auto;
+    position: static;        
+    margin-top: 2rem;
+  }
+}

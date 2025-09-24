@@ -16,7 +16,7 @@ header{
     width: 600px;    
     height: 1px;   
     background: rgb(50, 50, 50);
-    z-index: 2;
+    z-index: -1;
 }
 .nav{
     display: flex;
@@ -45,4 +45,12 @@ a b{
 nav a.active {
     border-bottom: 3px solid white;
 
+}
+
+.menu-icon{
+    display: none;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 40px;
+    height: 40px;
 }

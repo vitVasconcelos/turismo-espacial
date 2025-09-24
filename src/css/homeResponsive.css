@@ -1,0 +1,89 @@
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+    body {
+      background-image: url(/src/imagens/background-home-tablet.jpg);
+      background-size: cover;
+    }
+  
+    main {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .text {
+      margin: 8rem auto 0 auto;
+      width: 80%;
+    }
+  
+    h1 {
+      font-size: 80px;
+      width: auto;
+    }
+  
+    p {
+      font-size: 16px;
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .explore {
+      margin: 5rem auto;
+    }
+  
+    button {
+      width: 180px;
+      height: 180px;
+      font-size: 22px;
+    }
+  }
+  
+  /* Smartphones (até 768px) */
+  @media (max-width: 768px) {
+    body {
+      background-image: url(/src/imagens/background-home-mobile.jpg);
+      background-size: cover;
+    
+    }
+  
+    main {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .text {
+      margin: 4rem auto 0 auto;
+      width: 95%;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+  
+    h1 {
+      font-size: 85px;
+      letter-spacing: 3px;
+    }
+  
+    p {
+      font-size: 20px;
+      width: 90%;
+      margin: 1rem auto;
+      text-align: center;
+    }
+  
+    .explore {
+      margin: 3rem auto;
+    }
+  
+    button {
+      width: 175px;
+      height: 175px;
+      font-size: 20px;
+    }
+  }
+  
