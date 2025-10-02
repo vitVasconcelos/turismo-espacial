@@ -1,6 +1,6 @@
 # 🚀 Space Tourism Website
 
-Projeto desenvolvido como desafio do **[Frontend Mentor](https://www.frontendmentor.io/)**.  
+Projeto desenvolvido como desafio do Frontend Mentor https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3.  
 O objetivo foi recriar uma landing page de turismo espacial com design responsivo, utilizando apenas **HTML, CSS e JavaScript**.
 
 📸 Prévia
