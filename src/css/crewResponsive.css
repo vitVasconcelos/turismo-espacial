@@ -58,7 +58,7 @@
 @media (max-width: 768px) {
 
   body {
-    background-image: url(/src/imagens/background-crew-mobile.jpg);
+    background-image: url("../imagens/background-crew-mobile.jpg");
     background-size: cover;
     background-position: center;
   }

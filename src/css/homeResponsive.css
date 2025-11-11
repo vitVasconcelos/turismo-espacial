@@ -42,7 +42,7 @@
   /* Smartphones (até 768px) */
   @media (max-width: 768px) {
     body {
-      background-image: url(/src/imagens/background-home-mobile.jpg);
+      background-image: url("../imagens/background-home-mobile.jpg");
       background-size: cover;
     
     }
