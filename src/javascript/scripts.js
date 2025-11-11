@@ -7,7 +7,7 @@ links.forEach(link => {
   });
 });
 
-let menuList = document.getElementById("nav"); // Alterei para 'nav', que é o elemento principal
+let menuList = document.getElementById("nav"); 
 
 function showMenu() {
     menuList.classList.toggle("open"); 
