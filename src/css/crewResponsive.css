@@ -1,7 +1,7 @@
 /* Responsividade para Tablet */
 @media (max-width: 1024px) and (min-width: 768px) {
     body {
-      background-image: url(/src/imagens/background-crew-tablet.jpg);
+      background-image: url("../imagens/background-crew-tablet.jpg");
       background-size: cover;
       background-position: top center;
     }

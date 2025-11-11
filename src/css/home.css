@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/src/imagens/background-home-desktop.jpg);
+    background-image: url("../imagens/background-home-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;

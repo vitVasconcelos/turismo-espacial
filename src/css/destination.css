@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/src/imagens/background-destination-desktop.jpg);
+    background-image: url("../imagens/background-destination-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
