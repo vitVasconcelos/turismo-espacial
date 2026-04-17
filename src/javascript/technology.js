@@ -23,7 +23,8 @@ const technologyData ={
 
 }
 buttons.forEach(button =>{
-    button.addEventListener("click", ()=>{
+    button.addEventListener("click", (e)=>{
+        e.preventDefault();
         buttons.forEach(b => b.classList.remove("active"));
         button.classList.add("active");
 

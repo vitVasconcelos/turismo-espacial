@@ -36,8 +36,9 @@ const crewData = {
 
 
 bolinhas.forEach(bolinha => {
-  bolinha.addEventListener("click", () => {
-  
+  bolinha.addEventListener("click", (e) => {
+    
+    e.preventDefault();
     bolinhas.forEach(b => b.classList.remove("ativa"));
 
     bolinha.classList.add("ativa");

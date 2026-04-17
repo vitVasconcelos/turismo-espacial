@@ -37,17 +37,17 @@ h2{
 h1{
     color: rgb(232, 226, 226);
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 2px;
     font-weight: 300;
     margin-top: 5px;
 }
 p{
-    width: 280px;
+    width: 320px;
     text-align: left;
     color: rgb(196, 196, 196);
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
     margin-top: 10px;
 }
@@ -63,15 +63,16 @@ p{
     border-radius: 50%;
     background: gray;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: 0.3s;
 }
 
 .bolinha.ativa {
     background: white;
 }
 .image img{
-    width: 500px;
-    max-height: 500px;
+    width: auto;
+    height: 500px;
     position: fixed;
+    right: 8rem;
     bottom: 0;
 }
